@@ -4,6 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "chai": "4.2.0",
+    "express": "^4.17.1",
+    "mocha": "6.2.1"
+  },
+  "scripts": {
+    "test": "mocha --watch \"./{,!(node_modules|client)/**/}*.test.js\""
+  },
+  "repository": "https://github.com/Wasil-pl/BooksApi-tests.git",
+  "author": "Dariusz Wasilewski <dariusz.wasilewski.86@gmail.com>"
 }
